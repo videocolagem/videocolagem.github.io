@@ -1,4 +1,37 @@
+.referencias {
+  column-count: 3;
+}
+.referencias p {
+  font-size: 0.4em;
+  margin: 0;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
 .highlight {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #000 !important;
+  background: #FFF;
+  display: inline;
+}
+.highlight2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #FFF !important;
+  background: #000;
+  display: inline;
+}
+.highlight3 {
   background-color: white;
   color: black;
+}
+.linhadotempo {
+  column-count: 2;
+}
+.linhadotempo p {
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
 }
