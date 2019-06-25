@@ -10,8 +10,7 @@ Passar as referências.
 ## Estrutura
 
 ### 1. Discussão Teórica (15min):
-- Atualizando a aula passada para a Internet.
-- Como vídeos de interferência nos dão voz.
+**Feito!**
 
 ### 1.5. Referências (talvez!) (10min) 
 **Feito!**
@@ -24,5 +23,6 @@ Passar as referências.
 ### 4. Edição e Monitoria (70min)
 
 ### 5. Finalização (e exibição, se rolar!) (20min)
+**Feito!**
 
 ---
