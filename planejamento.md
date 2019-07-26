@@ -16,11 +16,18 @@ Passar as referências.
 **Feito!**
 
 ### 2. Demo Vídeo Show (25min)
+- Mudar a língua
+- Baixar arquivos e deixar em pen drive
+- Fazer todo o processo
+- Estruturar slides
 
 ### 3. Planejamento do Projeto (10min)
-**Próxima etapa!**
+**Feito!**
 
 ### 4. Edição e Monitoria (70min)
+
+- Como fazer fade in/fade out em áudio e vídeo
+- Como incluir textos
 
 ### 5. Finalização (e exibição, se rolar!) (20min)
 **Feito!**
