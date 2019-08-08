@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.17.0" title="Shotcut version 19.06.15" producer="main_bin">
+  <profile description="automatic" width="640" height="360" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="640" display_aspect_den="360" frame_rate_num="3093125" frame_rate_den="103207" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:02:52.686">
+    <property name="length">5176</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:02:52.686"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:02:45.178">
+    <property name="length">00:02:45:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Onofre/Downloads/y2mate.com - turma_do_pagode_pesquisa_no_google_ao_vivo_ft_henrique_diego_QGFmWbqc_T0_360p.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-01-17T14:04:38</property>
+    <property name="shotcut:hash">7e23d2db61574e019b9a24fe3676fde4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - turma_do_pagode_pesquisa_no_google_ao_vivo_ft_henrique_diego_QGFmWbqc_T0_360p.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:02:45.178">
+      <property name="lift_r">0</property>
+      <property name="lift_g">0</property>
+      <property name="lift_b">0</property>
+      <property name="gamma_r">1.568</property>
+      <property name="gamma_g">1.568</property>
+      <property name="gamma_b">1.568</property>
+      <property name="gain_r">0.432</property>
+      <property name="gain_g">0.432</property>
+      <property name="gain_b">0.432</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+      <property name="shotcut:filter">contrast</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter1" out="00:02:45.178">
+      <property name="line_width">2</property>
+      <property name="num">5</property>
+      <property name="darker">40</property>
+      <property name="lighter">40</property>
+      <property name="mlt_service">lines</property>
+      <property name="line4">218</property>
+      <property name="typeline4">2</property>
+      <property name="line3">537</property>
+      <property name="typeline3">1</property>
+      <property name="line2">463</property>
+      <property name="typeline2">3</property>
+      <property name="line1">246</property>
+      <property name="typeline1">3</property>
+      <property name="line0">447</property>
+      <property name="typeline0">2</property>
+      <property name="last_oldfilm_line_pos">0.405455</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter2" out="00:02:45.178">
+      <property name="noise">40</property>
+      <property name="contrast">100</property>
+      <property name="brightness">83</property>
+      <property name="mlt_service">grain</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter3" out="00:02:45.178">
+      <property name="maxdiameter">2</property>
+      <property name="maxcount">10</property>
+      <property name="mlt_service">dust</property>
+      <property name="cache-dy-1-12">15</property>
+      <property name="cache-dy-3-12">28</property>
+      <property name="cache-dy-4-12">18</property>
+      <property name="cache-dy-0-12">10</property>
+      <property name="cache-dy-2-12">7</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter4" out="00:02:45.178">
+      <property name="delta">14</property>
+      <property name="every">20</property>
+      <property name="brightnessdelta_up">20</property>
+      <property name="brightnessdelta_down">30</property>
+      <property name="brightnessdelta_every">70</property>
+      <property name="unevendevelop_up">60</property>
+      <property name="unevendevelop_down">20</property>
+      <property name="unevendevelop_duration">70</property>
+      <property name="mlt_service">oldfilm</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter5" out="00:02:45.178">
+      <property name="oversaturate_cr">190</property>
+      <property name="oversaturate_cb">190</property>
+      <property name="mlt_service">tcolor</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter6" out="00:02:45.178">
+      <property name="smooth">2</property>
+      <property name="radius">0.5</property>
+      <property name="x">0.5</property>
+      <property name="y">0.5</property>
+      <property name="opacity">0</property>
+      <property name="mode">1</property>
+      <property name="mlt_service">vignette</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter7" out="00:02:45.178">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.saturat0r</property>
+      <property name="0">00:00:54.888=0;00:00:57.791=0.375</property>
+      <property name="disable">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:02:45.178"/>
+  </playlist>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:02:45.178">
+    <property name="length">00:02:45:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Onofre/Downloads/y2mate.com - turma_do_pagode_pesquisa_no_google_ao_vivo_ft_henrique_diego_QGFmWbqc_T0_360p.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-01-17T14:04:38</property>
+    <property name="shotcut:hash">7e23d2db61574e019b9a24fe3676fde4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - turma_do_pagode_pesquisa_no_google_ao_vivo_ft_henrique_diego_QGFmWbqc_T0_360p.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:07.507"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:02:45.178"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 19.06.15" global_feed="1" in="00:00:00.000" out="00:02:52.686">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">0.168927</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
